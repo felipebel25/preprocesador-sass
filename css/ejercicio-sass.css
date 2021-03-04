@@ -35,6 +35,7 @@ main {
 
 .perfil {
   width: 50%;
+  height: 130vh;
   padding-top: 5rem;
   color: #FFFFFF;
   background-color: #8841DA;
@@ -140,10 +141,10 @@ main {
 }
 
 .galeria {
-  width: 50%;
+  width: 60%;
   height: 250px;
-  margin: 10px auto;
-  padding: 20px 0 0 30px;
+  margin: 3rem auto;
+  padding: 3rem 0 0 3rem;
   justify-content: space-evenly;
   border-radius: 2rem;
   box-shadow: 0 3rem 3.3rem 0 rgba(0, 0, 0, 0.5);
@@ -167,6 +168,33 @@ main {
 }
 .galeria img {
   border-radius: 10px;
+}
+
+.articulos {
+  width: 40%;
+  padding: 5rem 0 0 5rem;
+}
+
+.articulo {
+  margin-bottom: 7.5rem;
+  border-bottom: 0.3rem solid #8841DA;
+}
+.articulo__categoria {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #8841DA;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo__titulo {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo__descripcion {
+  margin-bottom: 3rem;
+  padding-right: 10rem;
+  font-size: 1.8rem;
 }
 
 /*# sourceMappingURL=ejercicio-sass.css.map */
