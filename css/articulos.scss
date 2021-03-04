@@ -1,6 +1,8 @@
 .articulos{
-    width: 40%;
+    width: 50%;
+    height: 90vh;
     padding: 5rem 0 0 5rem;
+    background-color: $color-primario;
     
 }
 .articulo{
@@ -15,10 +17,29 @@
     &__titulo{
         font-size: 2rem;
         @include titulos($fuente2);
+        color: $color-claro;
     }
     &__descripcion{
         margin-bottom: 3rem;
         padding-right: 10rem;
         font-size: 1.8rem;
+        color: $color-claro;
     }
+}
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  border-top: 2px solid $color-secundario;
+    justify-content: center;
+    &__link{
+        @extend .perfil__nombre;
+    }
+    &__name{
+        @extend .perfil__titulo;
+    
+    }
+
 }
