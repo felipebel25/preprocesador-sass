@@ -1,13 +1,15 @@
 .galeria {
-	width: 60%;
-	height:44vh;
+	width: 80%;
+	height: auto;
 	margin: 3rem auto;
+	margin-bottom: 4rem;
 	padding: 3rem 0 0 3rem;
 	justify-content: space-evenly;
 	@include caja;
 	&__foto-principal {
 		float: left;
 		margin-right: 10px;
+		
 	}
 	&__fotos-adicionales img {
 		height: 70px;
